@@ -1,0 +1,18 @@
+.block {
+    margin: 0;
+    width: 100vw;
+    height: 1000px;
+
+    &__theme {
+        background-position: 100% 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        &_home {
+            @extend .block__theme;
+            background-image: url("book.png");
+            color: white;
+        }
+    }
+}
+
