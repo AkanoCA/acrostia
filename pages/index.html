@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,31 +9,274 @@
 	<!-- BEMGO:symbol -->
 	<title>Document</title>
 </head>
+
 <body>
 
 
 	<main>
-		<div class="block block__theme_home">
+		<!-- HOME -->
+		<div class="home block block__theme_home" id="home">
 			<div class="container">
 				<div class="menu">
 					<div class="logo">
+						<a href="#">
+							<svg class="logo__img">
+								<use xlink:href="#logo__logo"></use>
+							</svg>
+						</a>
+					</div>
+					<div class="nav">
+						<div class="nav__item nav__item_current_home"><a href="#home" class="nav__link">Home</a></div>
+						<div class="nav__item"><a href="#services" class="nav__link">Services</a></div>
+						<div class="nav__item"><a href="#about" class="nav__link">About</a></div>
+						<div class="nav__item"><a href="#workd" class="nav__link">Work</a></div>
+						<div class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="home__banner">
+
+			</div>
+		</div>
+
+		<!-- OUR SERVICES -->
+		<div class="services block block__theme_services" id="services">
+			<div class="container">
+				<div class="menu">
+					<div class="logo">
+						<a href="#">
+							<svg class="logo__img">
+								<use xlink:href="#logo__logo"></use>
+							</svg>
+						</a>
+					</div>
+					<div class="nav">
+						<div class="nav__item"><a href="#home" class="nav__link">Home</a></div>
+						<div class="nav__item nav__item_current_services"><a href="#services" class="nav__link">Services</a></div>
+						<div class="nav__item"><a href="#about" class="nav__link">About</a></div>
+						<div class="nav__item"><a href="#workd" class="nav__link">Work</a></div>
+						<div class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></div>
+					</div>
+				</div>
+
+				<div class="description description_services">
+					<h1 class="description__title">OUR SERVICES</h1>
+					<h2 class="description__subtitle description__subtitle_pos">Lorem, ipsum <span
+							class="description__subtitle_accent">dolor.</span> sit amet consectetur adipisicing elit.
+						Quod, minima!</h2>
+					<p class="description__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsum
+						quis
+						sapiente, suscipit earum illo. Corrupti ad reprehenderit voluptate! Asperiores temporibus
+						similique sapiente dolorum in.Asperiores temporibus similique sapiente dolorum in.</p>
+				</div>
+
+				<div class="services__opportunities services__opportunities_pos">
+
+					<div class="services__serv">
+						<div class="services__wrap">
+							<svg class="services__img">
+								<use xlink:href="#services__lightball"></use>
+							</svg>
+							<h3 class="services__title services__title_pos">RESEARCHING</h3>
+							<p class="services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo
+								omnis aliquam? Tempora, facere quos?</p>
+						</div>
+					</div>
+					<div class="services__serv">
+						<div class="services__wrap">
+							<svg class="services__img">
+								<use xlink:href="#services__wand"></use>
+							</svg>
+							<h3 class="services__title services__title_pos">DESGN</h3>
+							<p class="services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+								nisi quidem? Non natus dolores doloribus!</p>
+						</div>
+					</div>
+					<div class="services__serv">
+						<div class="services__wrap">
+							<svg class="services__img">
+								<use xlink:href="#services__giars"></use>
+							</svg>
+							<h3 class="services__title services__title_pos">DEVELOPMENT</h3>
+							<p class="services__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+								laborum amet nemo sed aliquid eligendi.</p>
+						</div>
+					</div>
+					<div class="services__serv">
+						<div class="services__wrap">
+							<svg class="services__img">
+								<use xlink:href="#services__rocket"></use>
+							</svg>
+							<h3 class="services__title services__title_pos">LAUNCH</h3>
+							<p class="services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
+								repudiandae architecto deleniti voluptatem rerum impedit.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="home__banner">
+
+			</div>
+		</div>
+
+		<!-- ABOUT -->
+
+	</main>
+
+	<div class="block block__theme_we-are" id="about">
+		<div class="container">
+			<div class="menu">
+				<div class="logo">
+					<a href="#">
 						<svg class="logo__img">
 							<use xlink:href="#logo__logo"></use>
 						</svg>
+					</a>
+				</div>
+				<div class="nav">
+					<div class="nav__item"><a href="#home" class="nav__link">Home</a></div>
+					<div class="nav__item"><a href="#services" class="nav__link">Services</a></div>
+					<div class="nav__item nav__item_current_about"><a href="#about" class="nav__link">About</a></div>
+					<div class="nav__item"><a href="#workd" class="nav__link">Work</a></div>
+					<div class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></div>
+				</div>
+			</div>
+
+			<div class="description description_we-are">
+				<h1 class="description__title description__title_pos">WHO WE ARE & WHAR WE DO</h1>
+				<p class="description__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsum quis
+					sapiente, suscipit earum illo. Corrupti ad reprehenderit voluptate! Asperiores temporibus
+					similique sapiente dolorum in.Asperiores temporibus similique sapiente dolorum in.</p>
+			</div>
+
+			<div class="balloon balloon_pos">Meet the team</div>
+
+			<div class="team">
+				<div class="team__teammate">
+					<svg class="team__img">
+						<use xlink:href="@symbol#team__user"></use>
+					</svg>
+					<span class="team__name">Anton Petrov</span>
+					<team__span class="team__profession">General manager</team__span>
+					<div class="team__contacts">
+						<a href="#" class="team__link">
+							<svg class="team__fb">
+								<use xlink:href="@symbol#team__facebook"></use>
+							</svg>
+						</a>
+						<a href="#" class="team__link">
+							<svg class="team__tw">
+								<use xlink:href="@symbol#team__twit"></use>
+							</svg>
+						</a>
+						<a href="#" class="team__link">
+							<svg class="team__gl">
+								<use xlink:href="@symbol#team__google"></use>
+							</svg>
+						</a>
+						<a href="#" class="team__link">
+							<svg class="team__in">
+								<use xlink:href="@symbol#team__lin"></use>
+							</svg>
+						</a>
 					</div>
-					<div class="nav">
-						<div class="nav__item nav__item_current_home"><a href="" class="nav__link">Home</a></div>
-						<div class="nav__item"><a href="" class="nav__link">Services</a></div>
-						<div class="nav__item"><a href="" class="nav__link">About</a></div>
-						<div class="nav__item"><a href="" class="nav__link">Work</a></div>
-						<div class="nav__item"><a href="" class="nav__link">Contacts</a></div>
+				</div>
+				<div class="team__teammate">
+					<svg  class="team__img">
+						<use xlink:href="@symbol#team__user"></use>
+					</svg>
+					<span class="team__name">Kirl Donchev</span>
+					<team__span class="team__profession">Design Master</team__span>
+					<div class="team__contacts">
+						<a href="#" class="team__link">
+							<svg class="team__fb">
+								<use xlink:href="@symbol#team__facebook"></use>
+							</svg>
+						</a>
+						<a href="#" class="team__link">
+							<svg class="team__tw">
+								<use xlink:href="@symbol#team__twit"></use>
+							</svg>
+						</a>
+						<a href="#" class="team__link">
+							<svg class="team__gl">
+								<use xlink:href="@symbol#team__google"></use>
+							</svg>
+						</a>
+						<a href="#" class="team__link">
+							<svg class="team__in">
+								<use xlink:href="@symbol#team__lin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+				<div class="team__teammate">
+					<svg class="team__img">
+						<use xlink:href="@symbol#team__user"></use>
+					</svg>
+					<span class="team__name">ilian Bonev</span>
+					<team__span class="team__profession">Developer Ninja</team__span>
+					<div class="team__contacts">
+						<a href="#" class="team__link">
+							<svg class="team__fb">
+								<use xlink:href="@symbol#team__facebook"></use>
+							</svg>
+						</a>
+						<a href="#" class="team__link">
+							<svg class="team__tw">
+								<use xlink:href="@symbol#team__twit"></use>
+							</svg>
+						</a>
+						<a href="#" class="team__link">
+							<svg class="team__gl">
+								<use xlink:href="@symbol#team__google"></use>
+							</svg>
+						</a>
+						<a href="#" class="team__link">
+							<svg class="team__in">
+								<use xlink:href="@symbol#team__lin"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+				<div class="team__teammate">
+					<svg class="team__img">
+						<use xlink:href="@symbol#team__user"></use>
+					</svg>
+					<span class="team__name">Doni Stamov</span>
+					<team__span class="team__profession">SEO guru</team__span>
+					<div class="team__contacts">
+						<a href="#" class="team__link">
+							<svg class="team__fb">
+								<use xlink:href="@symbol#team__facebook"></use>
+							</svg>
+						</a>
+						<a href="#" class="team__link">
+							<svg class="team__tw">
+								<use xlink:href="@symbol#team__twit"></use>
+							</svg>
+						</a>
+						<a href="#" class="team__link">
+							<svg class="team__gl">
+								<use xlink:href="@symbol#team__google"></use>
+							</svg>
+						</a>
+						<a href="#" class="team__link">
+							<svg class="team__in">
+								<use xlink:href="@symbol#team__lin"></use>
+							</svg>
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
-	</main>
+		<div class="home__banner">
 
+		</div>
+	</div>
 	<!-- BEMGO:scripts -->
-	
+
 </body>
+
 </html>

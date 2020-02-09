@@ -1,19 +1,19 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    width: 34.375em;
-    height: 4.25em;
+    width: 550px;
+    height: 68px;
 
     &__item {
         display: flex;
         justify-content: center;
         align-items: flex-end;
 
-        width: 6.25em;
+        width: 100px;
         height: 100%;
 
-        padding-bottom: 0.25em;
-        border-radius: 0 0 0.3125em 0.3125em;
+        padding-bottom: 4px;
+        border-radius: 0 0 5px 5px;
 
         
 
@@ -21,14 +21,21 @@
             background-color: #74c7d5;
         }
 
+        &_current_services {
+            background-color: #df5c64;
+        }
+
+        &_current_about {
+            background-color: #91778e;
+        }
+
     }
 
     &__link {
-        font-size: 1.125em;
+        font-size: 18px;
         text-decoration: none;
         color: #fff;
-        padding-bottom: 0.625em;
-        line-height: 100%;
+        padding-bottom: 10px;
     }
 
     @media screen and (max-width:1200px) {
