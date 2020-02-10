@@ -4,6 +4,11 @@
     width: 550px;
     height: 68px;
 
+    &_contact {
+        height: 60px;
+        width: 530px;
+    }
+
     &__item {
         display: flex;
         justify-content: center;
@@ -27,6 +32,14 @@
 
         &_current_about {
             background-color: #91778e;
+        }
+
+        &_current_work {
+            background-color: #a1ca6c;
+        }
+
+        &_current_contact {
+            background-color: #82c8bd;
         }
 
     }

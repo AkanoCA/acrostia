@@ -1,0 +1,46 @@
+.filter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	height: 100px;
+
+	border-top: 1px solid #94b963;
+	border-bottom: 1px solid #94b963;
+
+	&_pos {
+		margin-top: 52px;
+	}
+
+	&__name {
+		font-size: 20px;
+		font-weight: bold;
+		text-transform: uppercase;
+
+		margin-left: 18px;
+	}
+
+	&__categories {
+		display: flex;
+		justify-content: space-between;
+		width: 466px;
+		margin-right: 18px;
+	}
+
+	&__category {
+		font-weight: bold;
+		padding: 12px 10px;
+        border-radius: 5px;
+        
+        cursor: pointer;
+
+
+
+		&_current {
+			background-color: #f5c149;
+		}
+	}
+
+
+
+}

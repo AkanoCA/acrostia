@@ -1,0 +1,85 @@
+.address {
+    display: flex;
+    height: 100%;
+    width: 220px;
+
+    &_pos {
+        margin-left: 8px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+
+        height: 100%;
+    }
+
+    &__title {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        font-weight: bold;
+        color: #c0dfda;
+
+        margin-top: 18px;
+    }
+
+    &__street {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 10px;
+    }
+
+    &__table {
+        display: grid;
+
+        grid-template-areas: 
+        "address__col-1 adress__col-2"
+        "address__col-1 adress__col-2"
+        "address__col-1 adress__col-2"
+        "address__col-1 adress__col-2";
+
+        grid-template-columns: 75px 1fr;
+        grid-template-rows: repeat(4, 21px);
+
+        margin-top: 72px;
+    }
+
+    &__col-1 {
+        display: flex;
+        flex-direction: column;
+        color: #c0dfda;
+    }
+
+    &__col-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__phone {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    &__email {
+        color: #fff;
+    }
+
+    &__skype {
+        text-decoration: none;
+        color: #fff;
+    }
+
+
+    &__map {
+        margin-left: 40px;
+        margin-top: 60px;
+        
+        border-radius: 5px;
+    }
+   
+}
