@@ -1,0 +1,68 @@
+.form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	width: 540px;
+	height: 220px;
+
+    &_pos {
+        margin-top: 26px;
+    }
+
+	&__input {
+		width: 240px;
+		height: 40px;
+
+		padding-left: 20px;
+
+		font-size: 16px;
+
+		background-color: rgba($color: #fff, $alpha: 0.8);
+		border-radius: 5px;
+		border: none;
+
+		&::-webkit-input-placeholder {
+			color: #82c8bd;
+		}
+
+		&::-moz-placeholder {
+			color: #82c8bd;
+		}
+
+
+		&:placeholder-shown {
+
+			background-color: #68a097;
+
+			&:focus {
+				color: #000000;
+				background-color: #fff;
+
+
+				&::-webkit-input-placeholder {
+					color: transparent;
+				}
+
+				&::-moz-placeholder {
+					color: transparent;
+				}
+			}
+		}
+
+		&_question {
+			width: 500px;
+			height: 140px;
+
+            margin-top: 18px;
+			padding-top: 10px;
+			padding-right: 20px;
+			padding-bottom: 10px;
+
+			font-family: Lato, sans-serif;
+
+			resize: none;
+		}
+
+	}
+}

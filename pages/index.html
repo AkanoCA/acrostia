@@ -5,6 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=ff057336-5844-4409-909c-8ac516f717da&lang=en_RU" >
+	</script>
 	
 	<!-- BEMGO:styles -->
 	<!-- BEMGO:symbol -->
@@ -369,7 +371,6 @@
 		</div>
 
 		<!-- CONTACT -->
-
 		<div class="block block_contact block__theme_contact" id="contacts">
 			<div class="container">
 				<div class="menu">
@@ -423,12 +424,21 @@
 							</div>
 						</div>
 			
-						<div class="address__map" id="map"></div>
+						<div id="map" class="address__map"></div>
 						
 						
 
 					</div>
-					<div class="ask-form"></div>
+					<div class="ask-form ask-form_pos">
+						<span class="ask-form__title">Ask a question</span>
+						
+							<form class="form form_pos" action="#" name="question">
+								<input type="text" name="name" placeholder="Name" class="form__input" />
+								<input type="text" name="surname" placeholder="Surname" class="form__input" />
+								<textarea class="form__input form__input_question" name="question" placeholder="Your question"></textarea>
+							</form>
+						
+					</div>
 				</div>
 				
 			</div>

@@ -1,1 +1,13 @@
-.ask-form {}
+.ask-form {
+
+    &_pos {
+        margin-left: 20px;
+    }
+
+    &__title {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+
+}
